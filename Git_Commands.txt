@@ -1,65 +1,65 @@
 Git Commands-->
 
 1. Git Version and installation check-
-git version
+>git version
 
 2. Configuring username and email. Not for any git hosting platform.
-git config --global user.name "Name"
-git config --global user.email "usernamexxx@email.com"
+>git config --global user.name "Name"
+>git config --global user.email "usernamexxx@email.com"
 
 3. Goto folder being used for project repo. Initialize as git repo-
-git init
+>git init
 
 4. Check status of the repo. The files committed, the files in stagging area and their status (new/modified/untracked)
-git status
+>git status
 
 5. Adding file to stagging area. Add after every change made to file.
-git add filename.extension
+>git add filename.extension
 For adding all files to staging area.
-git add .
+>git add .
 
 6. Committing file. Checkpoint for files are created thus.
-git commit -m "message"
+>git commit -m "message"
 
 7. Checking activities and head position, author, commit hash.
-git log
+>git log
 
 8. Removing file from stagging area or Unstage.
-git rm --cached filename.extension
+>git rm --cached filename.extension
 
 9. Creating branch.
-git branch branch_name
+>git branch branch_name
 
 10. Moving from master to branch.
-git checkout branch_name
+>git checkout branch_name
 
 11. Adding and committing at the same time.
-git commit -am "message"
+>git commit -am "message"
 
 12. Moving back from branch to master. The changes made in branch are not reflected in the master.
-git checkout master
+>git checkout master
 
 13. Merging changes from current branch to other branches.
-git checkout branch_to_be_merged_with
-git merge branch_to_be_merged
+>git checkout branch_to_be_merged_with
+>git merge branch_to_be_merged
 
 
 Creating new Repo and adding local repo to remote repo hoted on github server.
 1. Create new repo on github repository without Readme.md file
 
 2. Adding Origin/Remote Repo. (After initializing, adding and committing)
-git remote add origin url_of_repo
+>git remote add origin url_of_repo
 
 3. Check status of remote repo.
-git remote -v
+>git remote -v
 
 4. Pushing local repo to remote repo.
-git push -u origin master
+>git push -u origin master
 
 5. Pushing branches to origin.
 Switch to branch
 Commit changes
-git push origin branch_name
+>git push origin branch_name
 
 Note: pull(remote to working directory)=fetch(remote to local)+merge(local to working directory)
 
@@ -70,7 +70,7 @@ Pull Requests
 Note: Changes are not reflected on local repo by doing this. Only on hosted.
 
 Getting the changes on remote repo to local repo.
-git pull
+>git pull
 
 
 Making gitignore.
