@@ -1,0 +1,13 @@
+Git Commands-->
+
+1. Git Version and installation check-
+git version
+
+2. Goto folder being used for project repo. Initialize as git repo-
+git init
+
+3. Check status of the repo.
+git status
+
+
+
